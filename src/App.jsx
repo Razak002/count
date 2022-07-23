@@ -8,12 +8,12 @@ useEffect(()=>
 console.log(count))
   return(
     <div>
-    <h1>{count}</h1> 
-       <div className="add">
+      <h1>counter app</h1>
+    <h2>{count}</h2> 
       <button onClick={()=>setCount(count + 1)}>
         click +
       </button>
-      </div>
+    
       <button onClick={()=>setCount(count - 1)}>
         click -
       </button>

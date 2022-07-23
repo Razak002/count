@@ -5,3 +5,20 @@
   text-align: center;
   
 }
+h1{
+  color: red;
+  text-transform: capitalize;
+
+}
+p{
+  color: red;
+}
+h2{
+  color: red;
+}
+button{
+  border-radius: 5px;
+}
+button:hover{
+  color: white;
+}
