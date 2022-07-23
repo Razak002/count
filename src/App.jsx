@@ -9,9 +9,11 @@ console.log(count))
   return(
     <div>
     <h1>{count}</h1> 
+       <div className="add">
       <button onClick={()=>setCount(count + 1)}>
         click +
       </button>
+      </div>
       <button onClick={()=>setCount(count - 1)}>
         click -
       </button>
